@@ -1,0 +1,27 @@
+.button {
+
+	background-color: black;
+	color: white;
+	border-color: grey;
+	border-radius: 15px;
+	width: 200px;
+	text-align: center;
+	cursor: pointer;
+}
+
+.wrapper_module{
+
+	background-color: grey;
+	border-color: black;
+	width: 100%;
+
+}
+
+.drawer_cart_module{
+
+	width: 30%;
+	float: left;
+	background-color: blue;
+	border-color: white;
+
+}
