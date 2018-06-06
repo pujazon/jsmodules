@@ -34,6 +34,7 @@ function MoveToLeft(elem,size,speed) {
 	|| document.body.clientWidth;
 
 	var chunk = parse_speed(speed);
+	printf(chunk);
 	var count = 0;
 
 	var id = setInterval(frame, 10);
@@ -91,13 +92,13 @@ function parse_speed(speed){
 
 	switch (speed) {
 	    case "low":
-	        chunk = 5;
-	        break;
-	    case "medium":
 	        chunk = 10;
 	        break;
-	    case "fast":
+	    case "medium":
 	        chunk = 20;
+	        break;
+	    case "fast":
+	        chunk = 40;
 	        break;
 	}
 
