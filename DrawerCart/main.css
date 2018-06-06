@@ -10,11 +10,9 @@
 }
 
 .wrapper_module{
-
 	background-color: grey;
 	border-color: black;
 	width: 100%;
-
 }
 
 .drawer_cart_module{
@@ -23,12 +21,17 @@
 	background-color: blue;
 	border-color: white;
 	width: 300px;
+	height: 100%;
     position: absolute;
     left: 100%;
     top: 0%;
-
 }
 
 .hide{ display: none; }
 
 .display{ display: block; }
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
