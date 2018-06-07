@@ -10,7 +10,7 @@
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>		
 		<script src="DrawerCart.js" type="text/javascript" charset="utf-8"></script>	
 	</head>
-	<body>
+	<body onresize="OnResizeDrawerCart()">
 		<div id="main" class="wrapper_module">
 			<h2> DrawerCart Funcionality </h2>
 			<h4> Funcioidad que permite un Carrito desplegable des de la derecha </h4>
@@ -21,7 +21,9 @@
 		</div>		
 		<div id="drawer_cart" class="drawer_cart_module hide">
 			Testing if it has been correctly put.
-		</div>					
+		</div>
+
+		<dir style="display: none;" id="wsize"></dir>					
 
 	</body>
 </html>
