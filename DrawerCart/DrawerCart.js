@@ -76,7 +76,7 @@ function MoveToRight(elem,size,speed,type) {
 	if(type=="resize_right") delay=1;
 	else if (type=="close") delay=10;
 
-	var id = setInterval(frame, 1);
+	var id = setInterval(frame, delay);
 	function frame() {
 		if (count == size) {
 			if(type=="close"){ToggleClasses(drawer_cart,"display","hide");
